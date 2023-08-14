@@ -1,4 +1,4 @@
 # Instagram-login-sign-up-page
 It is a simple login/sign-up instagram page created using react useState functionality.It helps the users to toggle between login and signup options as per their choice.
 The instagram logo is in the assets folder. So we have to import it in the App.jsx file along with App.css.
-In the App.jsx file , firstly we have created 
+In the App.jsx file, we start by declaring a state variable 'login' initialized to 'true' and a function 'setLogin' to update it.The code defines a React component named App that creates a user login interface. It includes an image, input fields for login/signup details, buttons for action, and text that toggles between "Sign up" and "Log in" based on the login state. The useState hook is used to manage the login state, and the loginSwitch function is used to toggle the state when the user clicks on the "Sign up" or "Log in" text.
